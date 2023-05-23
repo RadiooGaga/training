@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(63, 110, 230, 0.599);  
+}
+nav {
+    background-color:  rgba(63, 110, 230, 0.599);
+    width: 100%;
+    padding-top: 3px;
+}
+
+.menu-amarillo, .menu-naranja {
+    background-color: yellow;
+    border-radius: 0%;
+    display:inline-flex;
+    justify-content:center;
+    width: 45%;
+    margin-left: 0%; 
+}
+
+.menu-naranja {
+    background-color: rgb(255, 162, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(69, 68, 68);
+}
+
+#about, #skills {
+    padding: 0px 16px 8px 16px;
+    text-align: center;
+    color: rgb(76, 75, 75);
+}
+
+li {
+
+    border-radius: 5px;
+    padding: 1em;
+    margin: 14px;
+    font-size: 12px;
+    color:rgb(26, 25, 25);
+    background-color: rgba(63, 110, 230, 0.599);
+    display:inline-flex;
+  }
+
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(249, 165, 56);
+}
